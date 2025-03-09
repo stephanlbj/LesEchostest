@@ -28,8 +28,12 @@ Jest: JavaScript testing framework for running tests and mocking APIs.
 
 TanStack Query (React Query): A data-fetching and caching library that simplifies the process of handling asynchronous data in React.
 
+The Lighthouse extension :  A tool used for auditing and improving web performance, accessibility, SEO, and best practices.
+
 🚧 Project Structure
+
 src/: The source code for the project.
+
 components/: Contains all React components (e.g., NewsletterItem, NewsletterList).
 
 mocks/: Mock data files for users and newsletters (e.g., user.ts, newsletters.ts).
@@ -39,6 +43,8 @@ app/: Contains the main pages and routing logic for Next.js.
 types/: Contains TypeScript interfaces for better typing and code safety.
 
 utils/: Utility functions for various tasks like checking subscription access.
+
+
 
 # The tests are close to the functions and code they are meant to test. #
 
@@ -51,6 +57,7 @@ git clone  https://github.com/stephanlbj/LesEchostest.git
 cd dir
 
 2. Install Dependencies
+   
 Make sure you have Node.js (preferably the latest LTS version) installed. Run the following command to install all dependencies:
 
 npm install
@@ -69,7 +76,14 @@ Or if you want to run the tests in watch mode:
 
 npm run test:watch
 This will run the test suite and display the results in the terminal.
- 
+
+ # 5 Production 
+
+ npm run build 
+
+ # then 
+
+ npm run start 
 
 Thought Process and Next Steps
 Given more time, I would:
