@@ -6,7 +6,6 @@ import {
 } from '@tanstack/react-query'
 import InfiniteNewsletters from "../InfiniteNewsletters/InfiniteNewsletters";
   
-
 export default async function Newsletters() {
 
   const queryClient = new QueryClient();

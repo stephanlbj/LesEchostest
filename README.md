@@ -46,7 +46,7 @@ utils/: Utility functions for various tasks like checking subscription access.
 
 1. Clone the Repository
 
-git clone orgin https://github.com/stephanlbj/-LesEchos.git
+git clone  https://github.com/stephanlbj/LesEchostest.git
 
 cd dir
 

@@ -5,8 +5,7 @@ import { UserWithSubscriptions } from '@/types/user';
 import Image from 'next/image';
 import { LiWrapper , Description, TopSection, Title} from './NewsletterItem.styles';
 import Button from '../Button/Button';
-import { forwardRef } from "react";
-
+ 
 interface NewsletterItemProps {
     newsletter: Newsletter;
     user: UserWithSubscriptions;

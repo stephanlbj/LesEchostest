@@ -2,7 +2,6 @@
 import { useInfiniteQuery  } from '@tanstack/react-query';
 import { getNewsletters } from "@/lib/api/getNewsLetters";
 
-
 export const useInfiniteNewsletters = () => {
     const {
         data,

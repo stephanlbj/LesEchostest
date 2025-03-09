@@ -13,7 +13,6 @@ interface InfiniteNewslettersProps  {
     user: UserWithSubscriptions
 }
 
-
 export default function InfiniteNewsletters({user}:InfiniteNewslettersProps) {
     const {
         data,
